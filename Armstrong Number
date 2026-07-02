@@ -1,0 +1,19 @@
+n = int(input("Enter the Number : "))
+
+digits = len(str(n))
+temp = n
+total = 0
+
+while temp > 0:
+    digit = temp % 10 
+    total += digit ** digits
+    temp //= 10
+    
+if total == n:
+    print("It is Armstrong Number")
+else : 
+    print("It is not a Armstrong Number")
+
+Output :
+Enter the Number : 78
+It is not a Armstrong Number
