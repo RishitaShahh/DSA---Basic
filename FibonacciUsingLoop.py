@@ -4,7 +4,7 @@ b = 1
 print("Fabonacci Series")
 for i in range(n):
   
-  print(i, end=" ")
+  print(a, end=" ")
   c = a + b
   a = b
   b = c
